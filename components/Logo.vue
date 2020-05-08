@@ -1,5 +1,5 @@
 <template>
-  <img src="~/assets/howtomakesushi.png" class="top-image">
+  <img src="~/assets/title.svg" class="c-logo">
 </template>
 <style>
 .top-image {
