@@ -10,6 +10,15 @@ import Logo from '~/components/Logo.vue'
 import WipLabel from '~/components/WipLabel.vue'
 
 export default {
+  head () {
+    return {
+      title: 'murokaco',
+      meta: [
+        // `hid` は一意の識別子として使用されます。 `vmid` は動作しないので使わないでください。
+        { hid: 'description', name: 'description', content: 'My custom description'}
+      ]
+    }
+  },
   components: {
     Logo,
     WipLabel
