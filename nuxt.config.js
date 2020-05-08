@@ -22,8 +22,11 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+ css: [
+  // Node.js モジュールを直接ロードする (ここでは SASS ファイル)
+  // プロジェクト内の SCSS ファイル
+  '@/assets/css/main.scss'
+],
   /*
   ** Plugins to load before mounting the App
   */
