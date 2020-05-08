@@ -1,15 +1,18 @@
 <template>
   <div class="container">
     <logo class="p-top__logo" alt="murokacoの紹介ページ" />
+    <WipLabel />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import WipLabel from '~/components/WipLabel.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    WipLabel
   }
 }
 </script>
@@ -22,10 +25,5 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.p-top__logo {
-  & svg {
-    fill: white;
-  }
 }
 </style>
